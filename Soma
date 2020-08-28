@@ -1,0 +1,14 @@
+<?php
+
+    $primeiroNum = $_GET['primeiroNum'];
+    $segundoNum = $_GET['segundoNum'];
+
+    $resultado= $primeiroNum + $segundoNum;
+
+    echo "O soma dos numeros é $resultado.";
+
+    if ($resultado % 2 == 0){
+        echo 'O resultado é par.';
+    }else {
+        echo 'O resultado é impar.';
+    }
